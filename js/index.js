@@ -2,7 +2,6 @@ $(document).ready(function() {
     $('#main-table').DataTable({
         data: dataSet,
         columns: [
-            { "data": "Char #", title: "#" },
             { "data": "Character", title: "Character" },
             { "data": "0% Rage", title: "0% Rage" },
             { "data": "50% Rage", title: "50% Rage" },
@@ -27,5 +26,15 @@ $(document).ready(function() {
         ]
     });
 
-    // $('.dataTables_filter').addClass('pull-left');
+    $('.dark-mode-toggle').click(function(){
+        var body = $('body');
+        var toggle = $('.dark-mode-toggle');
+        body.toggleClass('dark-mode');
+        if(body.hasClass('dark-mode')){
+            toggle.html('<i class="fa fa-sun-o" aria-hidden="true"></i>')
+        }else{
+            toggle.html('<i class="fa fa-moon-o" aria-hidden="true"></i>');
+        }
+
+    });
 });

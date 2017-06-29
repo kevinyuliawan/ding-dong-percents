@@ -1,3 +1,37 @@
+.dark-mode{
+	background-color: #272822;
+	color: #EBE5CC;
+}
+
+.dark-mode .table-striped>tbody>tr:nth-of-type(odd) {
+   background-color: #161906;
+ }
+
+ .dark-mode .table-hover>tbody>tr:hover{
+ 	background-color: #494537;
+ }
+
+.main-col{
+	padding:10px 0px;
+	position:relative;
+}
+
+.main-title{
+	display:inline-block;
+	margin:0px;
+}
+
+.dark-mode-toggle{
+	position: absolute;
+  top: 17px;
+  margin-left: 10px;
+  color: inherit;
+}
+
+.dark-mode-toggle:hover, .dark-mode-toggle:focus{
+	color: inherit;
+}
+
 .main-row{
 	padding-top:10px;
 	padding-bottom:30px;
@@ -12,5 +46,5 @@
 }
 
 .main-row .dataTables_filter{
-	/*text-align:left !important;*/
+	text-align:left !important;
 }
