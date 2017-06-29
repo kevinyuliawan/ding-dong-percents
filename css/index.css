@@ -10,3 +10,7 @@
 .main-table-responsive{
 	padding:5px;
 }
+
+.main-row .dataTables_filter{
+	/*text-align:left !important;*/
+}

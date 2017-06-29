@@ -1,14 +1,15 @@
 var dataSet = [
   {
     "Character": "Mario",
-    "Weight": "",
+    "Weight": "98",
+    "Weight Rank": "Middleweight",
     "0% Rage": "74-89",
     "50% Rage": "70-84",
     "100% Rage": "61-69",
     "150% Rage": "52-54",
     "Char #": "1",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Tier Rank": "*S",
+    "Tier #": "10"
   },
   {
     "Character": "Luigi",
@@ -17,9 +18,10 @@ var dataSet = [
     "100% Rage": "57",
     "150% Rage": "53",
     "Char #": "2",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight Rank": "Middleweight",
+    "Weight": "97",
+    "Tier Rank": "*S",
+    "Tier #": "14"
   },
   {
     "Character": "Peach",
@@ -28,9 +30,10 @@ var dataSet = [
     "100% Rage": "52",
     "150% Rage": "44",
     "Char #": "3",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "89",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "20"
   },
   {
     "Character": "Bowser",
@@ -39,20 +42,22 @@ var dataSet = [
     "100% Rage": "67",
     "150% Rage": "63",
     "Char #": "4",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "130",
+    "Weight Rank": "Super Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "15"
   },
   {
-    "Character": "Donkey Kong",
+    "Character": "Donkey Kong (DK)",
     "0% Rage": "88-113",
     "50% Rage": "84",
     "100% Rage": "76",
     "150% Rage": "65",
     "Char #": "5",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "122",
+    "Weight Rank": "Super Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "15"
   },
   {
     "Character": "Diddy Kong",
@@ -61,20 +66,22 @@ var dataSet = [
     "100% Rage": "62-77",
     "150% Rage": "53-60",
     "Char #": "6",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "93",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "*S",
+    "Tier #": "5"
   },
   {
-    "Character": "Game & Watch",
+    "Character": "Game & Watch (GW)",
     "0% Rage": "58-67",
     "Char #": "7",
     "50% Rage": "54",
     "100% Rage": "46",
     "150% Rage": "39",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "75",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "A",
+    "Tier #": "29"
   },
   {
     "Character": "Little Mac",
@@ -83,9 +90,10 @@ var dataSet = [
     "50% Rage": "68",
     "100% Rage": "59",
     "150% Rage": "52-61",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "82",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "B",
+    "Tier #": "47"
   },
   {
     "Character": "Yoshi",
@@ -94,9 +102,10 @@ var dataSet = [
     "50% Rage": "69",
     "100% Rage": "59",
     "150% Rage": "51",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "104",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "36"
   },
   {
     "Character": "Rosalina & Luma",
@@ -105,9 +114,10 @@ var dataSet = [
     "50% Rage": "57",
     "100% Rage": "51",
     "150% Rage": "43",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "77",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "*S",
+    "Tier #": "3"
   },
   {
     "Character": "Bowser Jr",
@@ -116,9 +126,10 @@ var dataSet = [
     "50% Rage": "75",
     "100% Rage": "63",
     "150% Rage": "55",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "108",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "B",
+    "Tier #": "50"
   },
   {
     "Character": "Wario",
@@ -127,9 +138,10 @@ var dataSet = [
     "50% Rage": "72",
     "100% Rage": "66",
     "150% Rage": "60",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "107",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "B",
+    "Tier #": "43"
   },
   {
     "Character": "Link",
@@ -138,9 +150,10 @@ var dataSet = [
     "50% Rage": "72",
     "100% Rage": "64",
     "150% Rage": "55",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "104",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "24"
   },
   {
     "Character": "Zelda",
@@ -149,9 +162,10 @@ var dataSet = [
     "50% Rage": "62",
     "100% Rage": "54",
     "150% Rage": "48",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "85",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "B",
+    "Tier #": "51"
   },
   {
     "Character": "Sheik",
@@ -160,31 +174,34 @@ var dataSet = [
     "100% Rage": "52-65",
     "150% Rage": "44-56",
     "Char #": "15",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "81",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "*S",
+    "Tier #": "4"
   },
   {
-    "Character": "Ganon",
+    "Character": "Ganondorf",
     "0% Rage": "83-111",
     "50% Rage": "79",
     "100% Rage": "69",
     "150% Rage": "59-70",
     "Char #": "16",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "113",
+    "Weight Rank": "Super Heavyweight",
+    "Tier Rank": "B",
+    "Tier #": "48"
   },
   {
-    "Character": "Toon Link",
+    "Character": "Toon Link (Tink)",
     "0% Rage": "69-72",
     "50% Rage": "64-68",
     "100% Rage": "55-57",
     "150% Rage": "52",
     "Char #": "17",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "93",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "23"
   },
   {
     "Character": "Samus",
@@ -193,20 +210,22 @@ var dataSet = [
     "100% Rage": "63",
     "150% Rage": "54",
     "Char #": "18",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "108",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "37"
   },
   {
-    "Character": "ZSS",
+    "Character": "Zero Suit Samus (ZSS)",
     "0% Rage": "67-93",
     "50% Rage": "63",
     "100% Rage": "55",
     "150% Rage": "48-63",
     "Char #": "19",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "80",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "*S",
+    "Tier #": "6"
   },
   {
     "Character": "Pit",
@@ -215,9 +234,10 @@ var dataSet = [
     "100% Rage": "59-73",
     "150% Rage": "52-60",
     "Char #": "20",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "96",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "34"
   },
   {
     "Character": "Dark Pit",
@@ -226,20 +246,22 @@ var dataSet = [
     "100% Rage": "59-73",
     "150% Rage": "52-60",
     "Char #": "21",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "96",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "34"
   },
   {
-    "Character": "Duck Hunt & Dog",
+    "Character": "Duck Hunt & Dog (DHD)",
     "0% Rage": "74-90",
     "50% Rage": "70",
     "100% Rage": "61",
     "150% Rage": "52",
     "Char #": "22",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "91",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "31"
   },
   {
     "Character": "Kirby",
@@ -248,31 +270,34 @@ var dataSet = [
     "100% Rage": "49",
     "150% Rage": "43",
     "Char #": "23",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "79",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "B",
+    "Tier #": "45"
   },
   {
-    "Character": "King Dedede",
+    "Character": "King Dedede (DDD)",
     "0% Rage": "93-121",
     "50% Rage": "88",
     "100% Rage": "79",
     "150% Rage": "70",
     "Char #": "24",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "119",
+    "Weight Rank": "Super Heavyweight",
+    "Tier Rank": "B",
+    "Tier #": "49"
   },
   {
-    "Character": "Meta Knight",
+    "Character": "Meta Knight (MK)",
     "0% Rage": "66-85",
     "50% Rage": "61",
     "100% Rage": "53",
     "150% Rage": "45",
     "Char #": "25",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "80",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "A",
+    "Tier #": "19"
   },
   {
     "Character": "Lucario",
@@ -281,9 +306,10 @@ var dataSet = [
     "100% Rage": "66-84",
     "150% Rage": "57-69",
     "Char #": "26",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "99",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "*S",
+    "Tier #": "12"
   },
   {
     "Character": "Jigglypuff",
@@ -292,9 +318,10 @@ var dataSet = [
     "100% Rage": "43",
     "150% Rage": "36",
     "Char #": "27",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "68",
+    "Weight Rank": "Balloonweight",
+    "Tier Rank": "Low",
+    "Tier #": "52"
   },
   {
     "Character": "Greninja",
@@ -303,31 +330,34 @@ var dataSet = [
     "100% Rage": "56",
     "150% Rage": "49-56",
     "Char #": "28",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "94",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "33"
   },
   {
-    "Character": "ROB",
+    "Character": "ROB (R.O.B)",
     "0% Rage": "80-98",
     "50% Rage": "74",
     "100% Rage": "65",
     "150% Rage": "58-64",
     "Char #": "29",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "106",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "25"
   },
   {
-    "Character": "Wii Fit Trainer",
+    "Character": "Wii Fit Trainer (WFT)",
     "0% Rage": "69-84",
     "50% Rage": "65",
     "100% Rage": "55",
     "150% Rage": "46",
     "Char #": "30",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "96",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "B",
+    "Tier #": "39"
   },
   {
     "Character": "Shulk",
@@ -336,31 +366,34 @@ var dataSet = [
     "100% Rage": "135-176(shield)",
     "150% Rage": "67-80(smash)",
     "Char #": "31",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "102",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "35"
   },
   {
-    "Character": "Dr. Mario",
+    "Character": "Dr. Mario (Doc)",
     "0% Rage": "74-89",
     "50% Rage": "70-84",
     "100% Rage": "61-69",
     "150% Rage": "52-54",
     "Char #": "32",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "98",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "B",
+    "Tier #": "38"
   },
   {
-    "Character": "Pacman",
+    "Character": "Pac-man",
     "0% Rage": "69-80",
     "50% Rage": "66",
     "100% Rage": "56",
     "150% Rage": "47",
     "Char #": "33",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "95",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "B",
+    "Tier #": "46"
   },
   {
     "Character": "Palutena",
@@ -369,9 +402,10 @@ var dataSet = [
     "100% Rage": "55-65",
     "150% Rage": "46-51",
     "Char #": "34",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "91",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "B",
+    "Tier #": "42"
   },
   {
     "Character": "Marth",
@@ -380,9 +414,10 @@ var dataSet = [
     "100% Rage": "59-73",
     "150% Rage": "51-59",
     "Char #": "35",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "90",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "*S",
+    "Tier #": "9"
   },
   {
     "Character": "Lucina",
@@ -391,9 +426,10 @@ var dataSet = [
     "100% Rage": "59-73",
     "150% Rage": "51-59",
     "Char #": "36",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "90",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "*S",
+    "Tier #": "9"
   },
   {
     "Character": "Ike",
@@ -402,9 +438,10 @@ var dataSet = [
     "100% Rage": "66",
     "150% Rage": "59-71",
     "Char #": "37",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "107",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "B",
+    "Tier #": "44"
   },
   {
     "Character": "Robin",
@@ -413,9 +450,10 @@ var dataSet = [
     "100% Rage": "59-73",
     "150% Rage": "51-59",
     "Char #": "38",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "95",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "26"
   },
   {
     "Character": "Fox",
@@ -424,9 +462,10 @@ var dataSet = [
     "100% Rage": "53",
     "150% Rage": "45",
     "Char #": "39",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "79",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "*S",
+    "Tier #": "8"
   },
   {
     "Character": "Falco",
@@ -435,9 +474,10 @@ var dataSet = [
     "100% Rage": "55",
     "150% Rage": "49",
     "Char #": "40",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "82",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "B",
+    "Tier #": "41"
   },
   {
     "Character": "Pikachu",
@@ -446,9 +486,10 @@ var dataSet = [
     "100% Rage": "52",
     "150% Rage": "45",
     "Char #": "41",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "79",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "A",
+    "Tier #": "17"
   },
   {
     "Character": "Charizard",
@@ -457,9 +498,10 @@ var dataSet = [
     "100% Rage": "61",
     "150% Rage": "52",
     "Char #": "42",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "116",
+    "Weight Rank": "Super Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "32"
   },
   {
     "Character": "Ness",
@@ -468,20 +510,22 @@ var dataSet = [
     "100% Rage": "55",
     "150% Rage": "46",
     "Char #": "43",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "94",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "30"
   },
   {
-    "Character": "Falcon",
+    "Character": "Captain Falcon",
     "0% Rage": "85-116",
     "50% Rage": "78",
     "100% Rage": "68",
     "150% Rage": "58",
     "Char #": "44",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "104",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "18"
   },
   {
     "Character": "Villager",
@@ -490,9 +534,10 @@ var dataSet = [
     "100% Rage": "59",
     "150% Rage": "56",
     "Char #": "45",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "97",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "22"
   },
   {
     "Character": "Olimar",
@@ -501,9 +546,10 @@ var dataSet = [
     "100% Rage": "51",
     "150% Rage": "44",
     "Char #": "46",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "79",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "A",
+    "Tier #": "16"
   },
   {
     "Character": "Mega Man",
@@ -512,9 +558,10 @@ var dataSet = [
     "100% Rage": "64",
     "150% Rage": "56",
     "Char #": "47",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "102",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "A",
+    "Tier #": "28"
   },
   {
     "Character": "Sonic",
@@ -523,9 +570,10 @@ var dataSet = [
     "100% Rage": "59",
     "150% Rage": "53",
     "Char #": "48",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "94",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "*S",
+    "Tier #": "7"
   },
   {
     "Character": "Mewtwo",
@@ -534,9 +582,10 @@ var dataSet = [
     "100% Rage": "54-65",
     "150% Rage": "45-53",
     "Char #": "49",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "74",
+    "Weight Rank": "Balloonweight",
+    "Tier Rank": "*S",
+    "Tier #": "13"
   },
   {
     "Character": "Lucas",
@@ -545,9 +594,10 @@ var dataSet = [
     "100% Rage": "55",
     "150% Rage": "46",
     "Char #": "50",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "94",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "21"
   },
   {
     "Character": "Roy",
@@ -556,9 +606,10 @@ var dataSet = [
     "100% Rage": "62",
     "150% Rage": "53",
     "Char #": "51",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "95",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "B",
+    "Tier #": "40"
   },
   {
     "Character": "Ryu",
@@ -567,9 +618,10 @@ var dataSet = [
     "100% Rage": "64-77",
     "150% Rage": "56-64",
     "Char #": "52",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "103",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "*S",
+    "Tier #": "11"
   },
   {
     "Character": "Cloud",
@@ -578,9 +630,10 @@ var dataSet = [
     "100% Rage": "66-83",
     "150% Rage": "57-67",
     "Char #": "53",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "100",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "*S",
+    "Tier #": "2"
   },
   {
     "Character": "Cloud (limit)",
@@ -589,9 +642,10 @@ var dataSet = [
     "100% Rage": "68-87",
     "150% Rage": "59-73",
     "Char #": "54",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "100",
+    "Weight Rank": "Heavyweight",
+    "Tier Rank": "*S",
+    "Tier #": "2"
   },
   {
     "Character": "Corrin",
@@ -600,19 +654,21 @@ var dataSet = [
     "100% Rage": "63-81",
     "150% Rage": "55-67",
     "Char #": "55",
-    "Weight": "",
-    "Tier Rank": "",
-    "Tier #": ""
+    "Weight": "98",
+    "Weight Rank": "Middleweight",
+    "Tier Rank": "A",
+    "Tier #": "27"
   },
   {
-    "Tier #": "",
+    "Tier #": "1",
     "Character": "Bayonetta",
     "0% Rage": "72-100",
     "50% Rage": "69-95",
     "100% Rage": "58-80",
     "150% Rage": "51-67",
     "Char #": "56",
-    "Weight": "",
-    "Tier Rank": ""
+    "Weight": "84",
+    "Weight Rank": "Featherweight",
+    "Tier Rank": "*S"
   }
 ]
