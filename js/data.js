@@ -362,9 +362,9 @@ var dataSet = [
   {
     "Character": "Shulk",
     "0% Rage": "76-96",
-    "50% Rage": "79-105(speed)",
-    "100% Rage": "135-176(shield)",
-    "150% Rage": "67-80(smash)",
+    "50% Rage": "79-105 (speed)",
+    "100% Rage": "135-176 (shield)",
+    "150% Rage": "67-80 (smash)",
     "Char #": "31",
     "Weight": "102",
     "Weight Rank": "Heavyweight",
