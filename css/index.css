@@ -48,3 +48,26 @@
 .main-row .dataTables_filter{
 	text-align:left !important;
 }
+
+@media (max-width:640px) { /* small devices */
+	.title{
+		text-align:center;
+		margin-bottom:5px;
+	}
+	.main-title{
+		font-size: 26px;
+	}
+	.dark-mode-toggle{
+		position:inherit;
+		display:block;
+	}
+	.main-row .dataTables_filter{
+		text-align:center !important;
+	}
+}
+
+@media (max-width: 414px){ /* x-small devices */
+	.main-title{
+		font-size:20px;
+	}
+}
