@@ -35,6 +35,19 @@ $(document).ready(function() {
         }else{
             toggle.html('<i class="fa fa-moon-o" aria-hidden="true"></i>');
         }
+    });
 
+    $('.text-up-toggle').click(function(){
+        var table = $('#main-table');
+        var size = parseFloat(table.css('font-size'));
+        size += 1;
+        table.css('font-size', size+'px');
+    });
+
+    $('.text-down-toggle').click(function(){
+        var table = $('#main-table');
+        var size = parseFloat(table.css('font-size'));
+        size -= 1;
+        table.css('font-size', size+'px');
     });
 });

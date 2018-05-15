@@ -21,11 +21,29 @@
 	margin:0px;
 }
 
+.toggle-row{
+	display: inline-block;
+}
+
 .dark-mode-toggle{
 	position: absolute;
   top: 17px;
   margin-left: 10px;
   color: inherit;
+}
+
+.text-up-toggle{
+	position: absolute;
+	top: 17px;
+	margin-left:50px;
+	color: inherit;
+}
+
+.text-down-toggle{
+	position: absolute;
+	top: 17px;
+	margin-left:90px;
+	color: inherit;
 }
 
 .dark-mode-toggle:hover, .dark-mode-toggle:focus{
@@ -57,9 +75,16 @@
 	.main-title{
 		font-size: 26px;
 	}
-	.dark-mode-toggle{
+	.toggle-row{
+		display: block;
+	}
+	.dark-mode-toggle, .text-up-toggle, .text-down-toggle{
 		position:inherit;
-		display:block;
+		display:inline-block;
+		margin-left:40px;
+	}
+	.dark-mode-toggle{
+		margin-left:0px;
 	}
 	.main-row .dataTables_filter{
 		text-align:center !important;
